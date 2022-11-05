@@ -7,6 +7,18 @@ body {
   --brand-color: #2196f3;
 }
 
+:root {
+  --first-important-color: #212121;
+}
+
+:root {
+  --second-important-color: #757575;
+}
+
+:root {
+  --third-important-color: #fff;
+}
+
 .contact-information:hover {
   color: var(--brand-color);
 }
@@ -20,11 +32,11 @@ button {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .header-font {
@@ -34,12 +46,12 @@ button {
 }
 
 .menu {
-  color: #212121;
+  color: var(--first-important-color);
   text-decoration: none;
 }
 
 .header-contact {
-  color: #757575;
+  color: var(--second-important-color);
   text-decoration: none;
 }
 
@@ -47,14 +59,14 @@ button {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #ffffff;
+  color: var(--third-important-color);
 }
 
 .first-section-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  color: #ffffff;
+  color: var(--third-important-color);
 }
 
 .second-section-header {
@@ -65,7 +77,7 @@ button {
 .second-section-p {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--second-important-color);
 }
 
 .third-section-header {
@@ -86,14 +98,14 @@ button {
 .positions {
   font-size: 16px;
   line-height: 1.19;
-  color: #757575;
+  color: var(--second-important-color);
 }
 
 .portfolio-buttons {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  color: #ffffff;
+  color: var(--third-important-color);
 }
 
 p > strong {
@@ -104,14 +116,14 @@ p > strong {
 .portfolio-p {
   font-size: 16px;
   line-height: 1.88;
-  color: #757575;
+  color: var(--second-important-color);
 }
 
 .footer-adress {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--third-important-color);
 }
 
 .footer-contact {
@@ -125,5 +137,5 @@ div > a[href="tel:+48111111111"] {
 }
 
 .logo > span {
-  color: #212121;
+  color: var(--first-important-color);
 }
